@@ -1,10 +1,14 @@
 #Page, Splash Screen and Tooltips
 
+[![Python](https://img.shields.io/badge/Python-3.x-green.svg)]()
+[![Page](https://img.shields.io/badge/Page-4.19-green.svg)](https://sourceforge.net/projects/page/?source=directory)
+[![Tkinter](https://img.shields.io/badge/Tkinter-%20-green.svg)]()
+
 ##Introduction
 This project is a quick demonstration of using Splash Screens and Tooltips within a ***Page*** GUI Project.
 
 The original Tooltip code is code that I found at # Found the original code at:
- http://code.activestate.com/recipes/576688-tooltip-for-tkinter/ and I modified it to be a bit more generic.  I've included all the python and .tcl files fo ryou
+ http://code.activestate.com/recipes/576688-tooltip-for-tkinter/ and I modified it to be a bit more generic.  I've included all the python and .tcl files for you.
  
  The files that you need if you only want to have Tooltips in your project is the ***tooltip.py*** file.  
 
@@ -41,13 +45,13 @@ There should be no changes needed to this file, since the tooltip information (t
 
 ###Tooltip setup
 As mentioned above, I put the tooltip definitions in the "main" support file in its own function.  Each tooltip is setup as follows...
-
+```python
 	Tooltip(
-	            w.tbtnFileNew,                        # Which widget
-	            msg = 'Create a NEW file",  # Text for the tooltip box
-	            follow=False,                          # See tooltip.py for information on this
-	            delay=0.5)                              # See tooltip.py for information on this
-            
+	            w.tbtnFileNew,                # Which widget
+	            msg = 'Create a NEW file",    # Text for the tooltip box
+	            follow=False,                 # See tooltip.py for information on this
+	            delay=0.5)                    # See tooltip.py for information on this
+```
             
 
 ##Links
