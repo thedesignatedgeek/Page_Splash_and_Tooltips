@@ -11,18 +11,18 @@ This project is a quick demonstration of using Splash Screens and Tooltips withi
 The original Tooltip code is code that I found at # Found the original code at:
  http://code.activestate.com/recipes/576688-tooltip-for-tkinter/ and I modified it to be a bit more generic.  I've included all the python and .tcl files for you.
  
- The files that you need if you only want to have Tooltips in your project is the ***tooltip.py*** file.  
+ The files that you need if you only want to have Tooltips in your project is the ***tooltip.py*** file. 
 
 As I'm sure that you know that Page uses two files per screen (or form), so the file structure is as follows...
-   Working_Directory-
-  					|-- \graphics_folder
-                                       |-- \Main.py
-                                       |-- \Main.tcl
-                                       |-- \Main_Support.py
-                                       |-- \splash1.py
-                                       |-- \splash1.tck
-                                       |-- \splash1_support.py
-                                       |-- \tooltip.py
+*  Working_Directory -
+      *			|-- \graphics_folder
+      *                        |-- Main.py
+      *                        |-- Main.tcl
+      *                        |-- Main_Support.py
+      *                        |-- splash1.py
+      *                        |-- splash1.tck
+      *                        |-- splash1_support.py
+      *                        |-- tooltip.py
 
 
 ## Installation
