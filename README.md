@@ -5,6 +5,7 @@
 [![Tkinter](https://img.shields.io/badge/Tkinter-%20-green.svg)]()
 
 ##Introduction
+
 This project is a quick demonstration of using Splash Screens and Tooltips within a ***Page*** GUI Project.
 
 The original Tooltip code is code that I found at # Found the original code at:
@@ -48,7 +49,7 @@ As mentioned above, I put the tooltip definitions in the "main" support file in 
 ```python
 	Tooltip(
 	            w.tbtnFileNew,                # Which widget
-	            msg = 'Create a NEW file",    # Text for the tooltip box
+	            msg = 'Create a NEW file',    # Text for the tooltip box
 	            follow=False,                 # See tooltip.py for information on this
 	            delay=0.5)                    # See tooltip.py for information on this
 ```
